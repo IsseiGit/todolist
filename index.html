@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+	<meta charset="UTF-8">
+	<title>Tiny Todo List</title>
+	<link rel="stylesheet" href="css/layout.css">
+
+</head>
+<body>
+<!-- Tiney todo List 本体-->
+<header>
+	<h1>Tiny Todo List</h1>
+</header>
+<div class="new-todo">
+<input type="text" class="todo-title" placeholder="今日の予定は?" value="">
+	</div>
+	<div class="todo-list">
+	<ul class="todos">
+		<li class="todo todo-done" id="todo-1">
+			<input type="checkbox" checked="checked">
+			<label for="todo-1-checkbox">予定１</label>
+			<div class="todo-operation">
+			<button value="edit" class="todo-operation-edit">✎</button>
+			<button value="edit" class="todo-operation-delete">☓</button>
+			</div>
+		</li>
+		<li class="todo todo-done" id="todo-2">
+			<input type="checkbox" checked="checked">
+			<label for="todo-2-checkbox">予定2</label>
+			<div class="todo-operation">
+			<button value="edit" class="todo-operation-edit">✎</button>
+			<button value="edit" class="todo-operation-delete">☓</button>
+			</div>
+		</li>
+	</ul>
+	</div>
+
+<footer>
+	<address>copyright &copy; 2017 MyName</address>
+	<script src="js/todo.js"></script>
+	<script src="js/new-todo.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
